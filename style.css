@@ -25,17 +25,34 @@
 }
 
 .grid {
-  width: 300px;
+  width: 310px;
   border: 1px solid #ccc;
   margin: 9px;
   opacity: .25;
+  min-height: 30px;
+}
+
+.cols-2 {
+  width: 620px;
+}
+
+.cols-3 {
+  width: 940px;
 }
 
 .column {
   width: 280px;
-  top: 5px;
-  bottom: 5px;
-  left: 5px;
+  top: 15px;
+  bottom: 15px;
+  left: 10px;
+}
+
+.col-2 {
+  left: 320px;
+}
+
+.col-3 {
+  left: 630px;
 }
 
 #currentPage {
