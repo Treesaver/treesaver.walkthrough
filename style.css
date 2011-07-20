@@ -40,7 +40,7 @@
   width: 940px;
 }
 
-.column {
+.column, .container {
   width: 280px;
   top: 15px;
   bottom: 15px;
@@ -53,6 +53,14 @@
 
 .col-3 {
   left: 630px;
+}
+
+.container.cols-2 {
+  width: 600px;
+}
+
+.container.cols-3 {
+  width: 920px;
 }
 
 #currentPage {
