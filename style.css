@@ -7,13 +7,47 @@
   padding: 0;
 }
 
+body {
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #434;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: normal;
+  margin: 24px 0;
+  color: #666;
+}
+
+h2 .chapter {
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+}
+
+p {
+  margin: 0;
+  text-indent: 24px;
+}
+
+hr {
+  margin: 24px 0;
+  border: none;
+  padding: 0;
+  height: 24px;
+  background: url('../img/horizontal-rule.png') 50% 50% no-repeat;
+}
+
 .chrome, .viewer, .grid, .column, .container {
   /* Manually position everything */
   position: absolute;
   /* Make sure seams aren't visible */
   overflow: hidden;
   /* Set the base vertical grid */
-  line-height: 20px;
+  line-height: 24px;
 }
 
 /* Stretch the viewer to fill the screen */
@@ -25,34 +59,33 @@
 }
 
 .grid {
-  width: 310px;
-  border: 1px solid #ccc;
-  margin: 9px;
+  width: 280px;
+  margin: 0 72px;
   opacity: .25;
   min-height: 30px;
 }
 
 .cols-2 {
-  width: 620px;
+  width: 590px;
 }
 
 .cols-3 {
-  width: 940px;
+  width: 910px;
 }
 
 .column, .container {
   width: 280px;
   top: 15px;
   bottom: 15px;
-  left: 10px;
+  left: 0;
 }
 
 .col-2 {
-  left: 320px;
+  left: 305px;
 }
 
 .col-3 {
-  left: 630px;
+  left: 615px;
 }
 
 .container.cols-2 {
